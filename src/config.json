@@ -1,0 +1,49 @@
+{
+   "botOwnerIds": ["", ""],
+   "testServerIds": ["", ""],
+
+   "guild_join_channel_id": "",
+   "guild_leave_channel_id": "",
+   "bot_log_channel_id": "",
+   "bump_log_channel_id": "",
+
+   "embedColor": "#44DCDF",
+   "bannerURL": "https://imgur.com/JtGKNfM.png",
+
+   "_comment": "The below value is the cooldown for the bump command in seconds (default is 1 hour)",
+   "cooldown": 3600,
+
+   "support_invite": "",
+   "bot_invite_url": "https://discord.com/oauth2/authorize?client_id=<replace>&permissions=19489&scope=bot+applications.commands",
+
+   "statuses": [
+      {
+         "text": "/bump 🚀",
+         "type": "Playing"
+      },
+      {
+         "text": "Server Bumps ⚡",
+         "type": "Watching"
+      },
+      {
+         "text": "upcoming Bump Bot 🔥",
+         "type": "Competing"
+      },
+      {
+         "text": "{GUILD_COUNT} servers 📚",
+         "type": "Listening"
+      },
+      {
+         "text": "{MEMBER_COUNT} members 💎",
+         "type": "Listening"
+      }
+   ],
+
+   "permission_urls": [
+      { "name": "ManageGuild", "url": "https://imgur.com/HsIzX6F.gif" },
+      { "name": "CreateInstantInvite", "url": "https://imgur.com/JCjE8oS.gif" },
+      { "name": "ViewChannel", "url": "https://imgur.com/23ufnIk.gif" },
+      { "name": "SendMessages", "url": "https://imgur.com/GX8jgmy.gif" },
+      { "name": "EmbedLinks", "url": "https://imgur.com/SY41wlT.gif" }
+   ]
+}
